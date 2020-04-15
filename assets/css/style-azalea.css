@@ -13811,7 +13811,7 @@ hr + .nk-block {
   padding: 0;
 }
 .partner-logo img {
-  max-height: 30px;
+  max-height: 100px;
   max-width: 100%;
   width: auto !important;
   margin-left: auto;
@@ -16042,6 +16042,7 @@ hr + .nk-block {
   padding: 12px 0;
   display: block;
   position: relative;
+  cursor: pointer;
 }
 .header-menu-s2 .menu-item a {
   font-size: 16px;

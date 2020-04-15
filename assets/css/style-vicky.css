@@ -1,3 +1,108 @@
+
+
+.header-logo .logo-link img{
+    width: 250px;
+    object-fit: contain;
+}
+
 .nk-block-text .animated{
     line-height: 35px;
+}
+
+.main-viky{
+    background-color: transparent;
+}
+
+.card-wrapper{
+    width: 100%;
+    margin: 200px 0 0 0;
+}
+
+.eco-card{
+    background-color: #ffffff56;
+}
+
+.eco-card img{
+    margin: 50px 0;
+}
+
+.card-wrapper .card{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid rgb(169, 155, 252);
+    background-color: transparent;
+}
+
+
+.card-wrapper .card:hover{
+    color: #fc3131;
+    border: 1px solid #fc3131 ;
+    transition: all .8s ease;
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+}
+
+@media screen and (min-width:768px){
+    .card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    /* .main-viky{
+        display: flex;
+         justify-content: space-evenly; 
+    } */
+
+    .card-wrapper{
+    display: flex;
+    justify-content: space-evenly; 
+    }
+
+    .card-wrapper .card{
+    width: 22%;
+    }
+
+    .eco-wrapper{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card-wrapper .eco-card{
+        width: 30%;
+    }
+
+    .viky-container{
+        margin: 0 auto;
+    }
+
+    .card-wrapper p{
+        color: white;
+    }
+
+    .card-wrapper .eco-card:nth-child(even){
+        transform: translateY(35px);
+        -webkit-transform: translateY(35px);
+        -moz-transform: translateY(35px);
+        -ms-transform: translateY(35px);
+        -o-transform: translateY(35px);
+    }
+
+    .card-wrapper .eco-card:nth-child(even):hover{
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+}
 }
